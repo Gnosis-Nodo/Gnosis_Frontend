@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './Landing.scss';
 import MainButton from "../Buttons/MainButton";
 import duckImage from "../../assets/imgs/Duck.jpeg"
@@ -20,9 +19,7 @@ const Landing = () => { //Logica de programacion
 
 
 
-
-
-  return (    //HTML
+  return (    //HTML. Solo debe retornar 1 <div></div> o <></> y todo adentro.
     <> 
       <h1 className='title'>Hola, esta es la landing</h1>
       <h2> Te saludo: {name}  </h2>
