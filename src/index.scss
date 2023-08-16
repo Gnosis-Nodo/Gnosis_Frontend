@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+//Global Font Variables
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+
+//Global Color Variables
 $primary-color: #000A61;
 $secondary-color: #000000;
 $third-color: #A19D9D;
@@ -14,7 +20,7 @@ $selection-click: #4F5DD1;
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
