@@ -13,20 +13,19 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 //Own Imports
-import LogoLowRes from '../../../assets/imgs/Logo_Low_Res.jpg';
+import LogoGnosis from '../../../assets/imgs/Logo_Gnosis_4.svg';
 import { Link } from 'react-router-dom';
 //End of Imports
 
+
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+  { name: 'Video', description: 'Speak directly to your customers', href: '#', icon: PlayCircleIcon },
+  { name: 'Lectura', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
 ]
+
 const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
+
 ]
 
 function classNames(...classes:any) {
@@ -36,13 +35,14 @@ function classNames(...classes:any) {
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  
   return (
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to='/' className="-m-1.5 p-1.5">
             <span className="sr-only">Gnosis</span>
-            <img className="h-8 w-auto" src={LogoLowRes} alt="" />
+            <img className="h-11.5 w-auto" src={LogoGnosis} alt="" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -55,10 +55,17 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
+
+
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
+
+        <a href="#" className="text-lg font-light leading-6 text-gray-900">
+            Inicio
+          </a>
+
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Inicio
+            <Popover.Button className="flex items-center gap-x-1 text-lg font-light leading-6 text-gray-900">
+              Contenido
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
@@ -107,18 +114,16 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+
+          <a href="#" className="text-lg font-light leading-6 text-gray-900">
             Nodo
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Contenido
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-lg font-light leading-6 text-gray-900">
             Contribuye
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/login" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link to="/login" className="text-lg font-semibold leading-6 text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
