@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={ <Landing /> } />
         <Route path='/login' element={ <Login /> } />
       </Routes>
-      <Footer />
+      <Footer/>
     </>
   );
 }

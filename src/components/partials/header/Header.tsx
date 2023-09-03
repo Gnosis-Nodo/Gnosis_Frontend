@@ -99,22 +99,10 @@ export default function Header() {
                   ))}
                 </div>
                 <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                    >
-                      <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                      {item.name}
-                    </a>
-                  ))}
                 </div>
               </Popover.Panel>
             </Transition>
           </Popover>
-
-
           <a href="#" className="text-lg font-light leading-6 text-gray-900">
             Nodo
           </a>
@@ -163,7 +151,7 @@ export default function Header() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"

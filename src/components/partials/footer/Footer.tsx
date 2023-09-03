@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
         </div>
           
-            <div className="absolute right-0 -mt-24 hidden text-white lg:inline-block">
+            <div className="absolute right-0 -mt-24 hidden text-white lg:inline-block ">
               <a href="/" className="mr-16">
                 Terms & Conditions
               </a>
