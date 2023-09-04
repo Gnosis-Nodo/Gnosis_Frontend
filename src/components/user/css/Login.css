@@ -1,0 +1,11 @@
+input::-moz-placeholder {
+  margin-left: 5px;
+}
+
+input::placeholder {
+  margin-left: 5px;
+}
+
+#checkbox {
+  font-size: 2px;
+}/*# sourceMappingURL=Login.css.map */
