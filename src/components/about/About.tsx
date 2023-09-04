@@ -1,30 +1,31 @@
+import Lucas from "../../assets/imgs/Lucas.jpeg";
+import Juan from "../../assets/imgs/Jp.jpeg";
+import Lu from "../../assets/imgs/Lu.jpeg";
+import Alex from "../../assets/imgs/Alex.jpeg";
+
 const people = [
     {
       name: 'Lucas Salazar',
       role: 'Co-Founder / CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
+      imageUrl: Lucas, 
     },
 
     {
       name: 'Juan Pablo Grisales',
       role: 'Co-Founder / CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
+      imageUrl: Juan, 
     },
 
     {
       name: 'Luisa Fernanda Salinas',
       role: 'Co-Founder / CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
+      imageUrl: Lu, 
     },
 
     {
       name: 'Alexander García',
       role: 'Co-Founder / CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', 
+      imageUrl: Alex, 
     },
     // More people...
   ]
