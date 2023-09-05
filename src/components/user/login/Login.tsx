@@ -1,16 +1,3 @@
-/*
-  This example requires some changes to your config:
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import LogoGnosis from '../../../assets/imgs/logo-gnosis.svg';
 import './Login.scss';
 
