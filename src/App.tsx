@@ -10,7 +10,7 @@ import ContentAudio from './components/content/ContentAudio';
 import Home from './components/home/Home';
 import Pricing from './components/pricing/Pricing';
 import About from './components/about/About';
-import PayWall from './components/content/paywall/PayWall';
+import PayWall from './components/content/paywall/Paywall';
 
 function App() {
   return (
