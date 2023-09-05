@@ -11,6 +11,7 @@ import Home from './components/home/Home';
 import Pricing from './components/pricing/Pricing';
 import About from './components/about/About';
 import PayWall from './components/content/paywall/Paywall';
+import Partnership from './components/partnership/Partnership';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/pricing' element={ <Pricing /> } />
         <Route path='/about' element={ <About /> } />
         <Route path='/paywall' element={ <PayWall /> } />
+        <Route path='/partnership' element={ <Partnership /> } />
       </Routes>
       <Footer/>
     </>
