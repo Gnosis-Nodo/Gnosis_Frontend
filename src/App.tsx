@@ -6,6 +6,7 @@ import Header from './components/partials/header/Header';
 import Footer from './components/partials/footer/Footer';
 import Register from './components/user/register/Register';
 import Section from './components/section/Section';
+import Account from './components/user/account/Account';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={ <Login /> } />
         <Route path='/register' element={ <Register /> } />
         <Route path='/section' element={ <Section /> } />
+        <Route path='/account' element={ <Account /> } />
       </Routes>
       <Footer></Footer>
     </>
