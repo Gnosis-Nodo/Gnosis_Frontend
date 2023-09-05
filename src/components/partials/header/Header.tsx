@@ -19,14 +19,11 @@ import { Link } from 'react-router-dom';
 
 
 const products = [
-  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Video', description: 'Speak directly to your customers', href: '#', icon: PlayCircleIcon },
-  { name: 'Lectura', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content', icon: ChartPieIcon },
+  { name: 'Video', description: 'Speak directly to your customers', href: '/content', icon: PlayCircleIcon },
+  { name: 'Lectura', description: 'Your customers’ data will be safe and secure', href: '/content', icon: FingerPrintIcon },
 ]
 
-const callsToAction = [
-
-]
 
 function classNames(...classes:any) {
   return classes.filter(Boolean).join(' ')
@@ -59,12 +56,12 @@ export default function Header() {
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
 
-        <a href="#" className="text-lg font-light leading-6 text-gray-900">
+        <a href="/home" className="text-lg font-semibold leading-6 text-gray-900">
             Home
           </a>
 
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-lg font-light leading-6 text-gray-900">
+            <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900">
               Content
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
@@ -103,10 +100,10 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <a href="#" className="text-lg font-light leading-6 text-gray-900">
+          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
             Nodo
           </a>
-          <a href="#" className="text-lg font-light leading-6 text-gray-900">
+          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
             Contribute
           </a>
         </Popover.Group>
@@ -124,7 +121,7 @@ export default function Header() {
               <span className="sr-only">Gnosis</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600.7"
+                src={LogoGnosis}
                 alt=""
               />
             </a>
@@ -178,7 +175,7 @@ export default function Header() {
                   Contribute
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About us

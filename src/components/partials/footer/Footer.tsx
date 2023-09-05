@@ -27,7 +27,7 @@ export default function Footer() {
               <h2 className="mb-3 text-lg tracking-widest font-bold ">Pricing</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Overview</a>
+                  <a href="/pricing">Overview</a>
                 </li>
                 <li>
                   <a href="/">Premium Plans</a>
@@ -41,7 +41,7 @@ export default function Footer() {
               <h2 className="mb-3 text-lg tracking-widest font-bold ">Team</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">About Us</a>
+                  <a href="/about">About Us</a>
                 </li>
                 <li>
                   <a href="/">Partnerships</a>
