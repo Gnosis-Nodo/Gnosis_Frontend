@@ -1,6 +1,6 @@
 import DuckPic from '../../assets/imgs/Duck.jpeg';
 import { UserGroupIcon, UsersIcon } from '@heroicons/react/20/solid';
-import ContentTabs from './ContentTabs';
+import ContentTabsDev from './ContentTabsDev';
 
 const topics = [
   {
@@ -15,22 +15,23 @@ const topics = [
   },
 ];
 
-export default function Content() {
+
+export default function ContentDev() {
   return (
     <>
       <div className="topic-container w-3/4 m-auto">
-        <div className="topic flex">
-          <img className='topic__icon w-12 h-12 mr-3' src={DuckPic} alt="Pic of a duck" />
+        <div className="topic flex items-center my-10">
+          <img className='topic__icon w-20 h-20 mr-3' src={DuckPic} alt="Pic of a duck" />
           <div className="topic__info">
-            <h2 className="topic__info__name">{topics[0].title}</h2>
+            <h1 className="topic__info__name text-5xl font-bold">{topics[0].title}</h1>
             <div className="flex">
-              <UserGroupIcon className="mt-1 mr-2 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <UserGroupIcon className="mt-1 mr-2 h-5 w-5 flex-none text-[#000]-600" aria-hidden="true" />
               <h4 className="topic__info__students">{`+ ${topics[0].students} Students`}</h4>
             </div>
           </div>
         </div>
       </div>
-      <ContentTabs />
+      <ContentTabsDev />
     </>
   )
 
