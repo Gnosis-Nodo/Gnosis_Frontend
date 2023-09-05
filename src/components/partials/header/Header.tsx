@@ -19,9 +19,9 @@ import { Link } from 'react-router-dom';
 
 
 const products = [
-  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content', icon: ChartPieIcon },
-  { name: 'Video', description: 'Speak directly to your customers', href: '/content', icon: PlayCircleIcon },
-  { name: 'Lectura', description: 'Your customers’ data will be safe and secure', href: '/content', icon: FingerPrintIcon },
+  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content/audio', icon: ChartPieIcon },
+  { name: 'Development', description: 'Code your future', href: '/content/dev', icon: PlayCircleIcon },
+  { name: 'Reading', description: 'Your customers’ data will be safe and secure', href: '/paywall', icon: FingerPrintIcon },
 ]
 
 
