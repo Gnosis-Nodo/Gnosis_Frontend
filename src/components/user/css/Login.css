@@ -8,4 +8,9 @@ input::placeholder {
 
 #checkbox {
   font-size: 2px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=Login.css.map */
