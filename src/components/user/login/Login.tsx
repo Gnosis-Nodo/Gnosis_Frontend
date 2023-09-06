@@ -1,4 +1,8 @@
 import LogoGnosis from '../../../assets/imgs/logo-gnosis.svg';
+import LogoGoogle from '../../../assets/imgs/google-logo-png.png';
+import LogoInstagram from '../../../assets/imgs/instagram-logo-png.png';
+import LogoLinkedin from '../../../assets/imgs/linkedin-logo-png.png';
+import { Link } from 'react-router-dom';
 import './Login.scss';
 
 export default function Login() {
@@ -22,7 +26,7 @@ export default function Login() {
               <label htmlFor="email" className="block text-2x1 font-bold leading-6 text-gray-900">
                 Email address
               </label>
-              <div className="mt-2">
+              <div className="mt-1">
                 <input
                 placeholder='email@adress.com'
                   id="email"
@@ -41,7 +45,7 @@ export default function Login() {
                   Password
                 </label>
               </div>
-              <div className="mt-2">
+              <div className="mt-1">
                 <input
                   placeholder='password'
                   id="password"
@@ -67,17 +71,25 @@ export default function Login() {
             </div>
           </form>
           <div className="text-sm">
-            <a href="" className="text-1 font-medium text-[#000000] hover:text-indigo-500">
+            <Link to ='/src/components/user/register/Register.tsx' className="text-1 font-medium text-[#000000] hover:text-indigo-500">
               Forgot password?
-            </a>
+            </Link>
           </div>
           <p className="mt-6 text-center text-sm text-gray-500">
             Sign in with your social media{' '} <br />
-
           </p>
-          <a href="" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-            Start a 14 day free trial
-          </a>
+          <div className='social-media'>
+            <a href={'https://www.google.com/'} className="google-logo">
+              <img src={ LogoGoogle } alt="google-logo" />
+            </a>
+            <a href={'https://www.instagram.com/'} className="instagram-logo">
+              <img src={ LogoInstagram } alt="instagram-logo" />
+            </a>
+            <a href={'https://www.linkedin.com/'} className="linkedin-logo">
+              <img src={ LogoLinkedin } alt="linkedin-logo" />
+            </a>
+          </div>
+            
         </div>
       </div>
     </>

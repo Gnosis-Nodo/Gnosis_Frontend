@@ -14,7 +14,8 @@ export default function Account() {
                 </div>
                 <h3>Photo</h3>
                 <div className='photo-container'>
-
+                    <img src="" alt="user" />
+                    <button>Upload</button>
                 </div>
                 <h3>Email</h3>
                 <div className='email-container'>
