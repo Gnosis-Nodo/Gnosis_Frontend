@@ -9,7 +9,7 @@ export default function Login() {
   return (
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
           <img
             className="mx-auto h-28 w-auto"
             src={ LogoGnosis }
@@ -63,13 +63,13 @@ export default function Login() {
             <div className='grid justify-items-center'>
               <button
                 type="submit"
-                className="flex justify-items-center w-medium rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-2">
+                className="flex justify-items-center w-medium rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-2 mt-4">
                 Sign in
               </button>
             </div>
           </form>
           <div className="text-sm text-center">
-            <Link to ='/src/components/user/register/Register.tsx' className="text-1 font-medium text-[#000000] hover:text-indigo-500 underline">
+            <Link to ='/src/components/user/register/Register.tsx' className="text-xs font-medium text-[#000000] hover:text-indigo-500 underline">
               Forgot password?
             </Link>
           </div>
@@ -87,7 +87,6 @@ export default function Login() {
               <img src={ LogoLinkedin } alt="linkedin-logo" />
             </a>
           </div>
-            
         </div>
       </div>
     </>
