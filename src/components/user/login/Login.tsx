@@ -20,21 +20,21 @@ export default function Login() {
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" action="#" method="POST">
+        <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-sm">
+          <form className="space-y-4" action="#" method="POST">
             <div>
               <label htmlFor="email" className="block text-2x1 font-bold leading-6 text-gray-900">
-                Email address
+                Email
               </label>
-              <div className="mt-1">
+              <div className="mt-0.5">
                 <input
-                placeholder='email@adress.com'
+                  placeholder='email@adress.com'
                   id="email"
                   name="email"
                   type="email"
                   autoComplete="email"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 placeholder: px-3 outline-none"
                 />
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Login() {
                   Password
                 </label>
               </div>
-              <div className="mt-1">
+              <div className="my-1">
                 <input
                   placeholder='password'
                   id="password"
@@ -53,29 +53,27 @@ export default function Login() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 placeholder: px-3 outline-none"
                 />
               </div>
             </div>
-            <label htmlFor="checkbox-reminder">
-              <input id='checkbox' type="checkbox" />Remind me
+            <label htmlFor="checkbox-reminder" className='text-sm pl-1'>
+              <input id='checkbox' type="checkbox" /> Remind me
             </label>
-            
-            <div>
+            <div className='grid justify-items-center'>
               <button
                 type="submit"
-                className="flex w-medium justify-right rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
+                className="flex justify-items-center w-medium rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-2">
                 Sign in
               </button>
             </div>
           </form>
-          <div className="text-sm">
-            <Link to ='/src/components/user/register/Register.tsx' className="text-1 font-medium text-[#000000] hover:text-indigo-500">
+          <div className="text-sm text-center">
+            <Link to ='/src/components/user/register/Register.tsx' className="text-1 font-medium text-[#000000] hover:text-indigo-500 underline">
               Forgot password?
             </Link>
           </div>
-          <p className="mt-6 text-center text-sm text-gray-500">
+          <p className="mt-8 text-center text-sm text-gray-500">
             Sign in with your social media{' '} <br />
           </p>
           <div className='social-media'>
