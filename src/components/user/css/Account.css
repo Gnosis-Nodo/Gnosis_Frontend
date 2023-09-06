@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.account-heading {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 32px 0 32px 48px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+p {
+  width: 50%;
+  text-align: center;
+}
+
+button {
+  width: 25%;
+  color: #ffffff;
+  background-color: #760404;
+  border-radius: 6px;
+}/*# sourceMappingURL=Account.css.map */

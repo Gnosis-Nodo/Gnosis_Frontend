@@ -6,7 +6,7 @@ import './Register.scss';
 export default function Register() {
   return (
     <>
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-sm">
+      <div className="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-4" action="#" method="POST">
           <div>
               <div className="flex items-center justify-between">

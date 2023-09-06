@@ -1,4 +1,4 @@
-import LogoGnosis from '../../../assets/imgs/logo-gnosis.svg';
+import LogoGnosis from '../../../assets/svg/logo-gnosis.svg';
 import LogoGoogle from '../../../assets/imgs/google-logo-png.png';
 import LogoInstagram from '../../../assets/imgs/instagram-logo-png.png';
 import LogoLinkedin from '../../../assets/imgs/linkedin-logo-png.png';
