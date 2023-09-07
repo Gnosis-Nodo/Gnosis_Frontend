@@ -16,6 +16,9 @@
         width: 100%;
     }
 }
+h2, h3 {
+    text-align: center;
+}
 .searching-section {
     display: flex;
     gap: 16px;
@@ -45,7 +48,7 @@
     display: grid;
     grid-template-columns: 368px 368px 368px;
     justify-content: center;
-    margin: 32px 0 32px 0;
+    margin: 48px 0 48px 0;
     padding: 0%;
     gap: 50px;
     row-gap: 60px;
@@ -58,5 +61,33 @@
         height: 380px;
         border: 1px;
         border-radius: 45px;
+        margin-left: 68px;
+        h2 {
+            font-size: 24px;
+        }
+        img {
+            margin: 12px 0 12px 32px;
+        }
+        .progress{
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 2px;
+        }
+        .progress-bar{
+            display: grid;
+            justify-content: center;
+            .last-seen {
+                width: 100%;
+            }
+            #bar::-webkit-progress-bar {
+                background-color: #a4a4a3;
+                border-radius: 7px;
+            }
+            #bar::-webkit-progress-value {
+                background-color: #000A61;
+                border-radius: 7px;
+            }
+        }
     }
 }
