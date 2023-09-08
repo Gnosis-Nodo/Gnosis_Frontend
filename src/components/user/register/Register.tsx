@@ -105,7 +105,7 @@ export default function Register() {
             </div>
           </form>
         </div>
-        <p className="mt-4 text-center text-sm text-gray-500">
+        <p className="mt-4 mx-auto text-center text-sm text-gray-500">
             Sign in with your social media{' '} <br />
           </p>
           <div className='social-media'>

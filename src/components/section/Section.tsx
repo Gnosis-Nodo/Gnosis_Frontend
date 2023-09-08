@@ -16,22 +16,22 @@ export default function Section() {
         <div className='products-info'>
           <div className='coding'>
             <img src={ Coding } alt="coding-logo" />
-            <h3>Coding</h3>
+            <h3 className='topic-name'>Coding</h3>
           </div>
           <div className='audio'>
             <img src={ Audio } alt="audio-logo" />
-            <h3>Audio</h3>
+            <h3 className='topic-name'>Audio</h3>
           </div>
           <div className='reading'>
             <img src={ Reading } alt="reading-logo" />
-            <h3>Reading</h3>
+            <h3 className='topic-name'>Reading</h3>
           </div>
           <div className='video'>
             <img src={ Video } alt="video-logo" />
-            <h3>Video</h3>
+            <h3 className='topic-name'>Video</h3>
           </div>
         </div>
-        <p>Discover 4 different ways to learn, easy and, fun. We have more than courses and concepts to study </p>
+        <p className='text'>Discover 4 different ways to learn, easy and, fun. We have more than courses and concepts to study </p>
       </header>
       <nav className='searching-section'>
         <div className='searching-navbar'>
@@ -56,7 +56,7 @@ export default function Section() {
           <div className='card-container'>
             <div className='card-heading'>
               <img src= { JS } alt="js-logo" />
-              <h2>JavaScript</h2>
+              <h2 className='subject-name'>JavaScript</h2>
             </div>
             <div className='progress'>
               <span className='portion'>30/100 Exercises</span>
@@ -70,7 +70,7 @@ export default function Section() {
           <div className='card-container'>
             <div className='card-heading'>
               <img src={ Python } alt="python-logo" />
-              <h2>Python</h2>
+              <h2 className='subject-name'>Python</h2>
             </div>
             <div className='progress'>
               <span className='portion'>4/100 Exercises</span>
@@ -84,7 +84,7 @@ export default function Section() {
           <div className='card-container'>
             <div className='card-heading'>
               <img src={ Java } alt="java-logo" />
-              <h2>Java</h2>
+              <h2 className='subject-name'>Java</h2>
             </div>
             <div className='progress'>
               <span className='portion'>16/130 Exercises</span>
@@ -98,7 +98,7 @@ export default function Section() {
           <div className='card-container'>
             <div className='card-heading'>
               <img src={ HTML } alt="html-logo" />
-              <h2>HTML 5</h2>
+              <h2 className='subject-name'>HTML 5</h2>
             </div>
             <div className='progress'>
               <span className='portion'>16/20 Exercises</span>
@@ -112,7 +112,7 @@ export default function Section() {
           <div className='card-container'>
             <div className='card-heading'>
               <img src={ Locked } alt="lock-logo" />
-              <h2>Spring</h2>
+              <h2 className='subject-name'>Spring</h2>
             </div>
             <div className='progress'>
               <span className='portion'>0/30 Exercises</span>
