@@ -9,7 +9,7 @@ return (
         <h2 className='account-heading'>Setting account</h2>
         <main>
             <section className='personal-info'>
-                <h3>Profile</h3>
+                <h3 className='account-topics'>Profile</h3>
                 <div className='profile-container'>
                 <form className="grid grid-rows-2 grid-cols-2 space-y-2 space-x-4" action="#" method="POST">
                     <div>
@@ -68,12 +68,12 @@ return (
                     </div>
                 </form>
                 </div>
-                <h3>Photo</h3>
+                <h3 className='account-account-headingtopics'>Photo</h3>
                 <div className='photo-container'>
                     <img src={ Avatar } alt="user" />
                     <button id='upload'>Upload</button>
                 </div>
-                <h3>Email</h3>
+                <h3 className='account-topics'>Email</h3>
                 <div className='email-container'>
                     <div className=" justify-start px-6 lg:px-8">
                         <div className="mt-2 sm:w-full sm:max-w-sm">
@@ -125,14 +125,14 @@ return (
             <section className='actions-user'>
                 <div className="flex justify-center gap-x-4 mb-12">
                     <div className="justify-items-center items-center w-1/4 border-solid border-2 border-[#D9D9D9] rounded-3xl px-10 py-10">
-                        <h2>Reset account</h2>
-                        <p>This option enables you restart all your profile configuration and start over new with Gnosis</p>
-                        <button>Reset</button>
+                        <h2 className='actions'>Reset account</h2>
+                        <p className='description'>This option enables you restart all your profile configuration and start over new with Gnosis</p>
+                        <button className='button-actions'>Reset</button>
                     </div>
                     <div className="justify-items-center items-center w-1/4 border-solid border-2 border-[#D9D9D9] rounded-3xl px-10 py-10">
-                        <h2>Delete account</h2>
-                        <p>Once you tap this button, you couldn't do anything. Are you sure?</p>
-                        <button>Delete</button>
+                        <h2 className='actions'>Delete account</h2>
+                        <p className='description'>Once you tap this button, you couldn't do anything. Are you sure?</p>
+                        <button className='button-actions'>Delete</button>
                     </div>
                 </div>
             </section>
