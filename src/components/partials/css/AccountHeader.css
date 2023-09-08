@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-p:hover {
+.option:hover {
   height: 42px;
   font-size: 24px;
   background-color: #b1b6e1;

@@ -63,7 +63,7 @@ export default function Login() {
             <div className='grid justify-items-center'>
               <button
                 type="submit"
-                className="flex justify-items-center w-medium rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-2 mt-4">
+                className="flex justify-center w-medium rounded-md bg-[#000A61] px-5 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-2 mt-4">
                 Sign in
               </button>
             </div>
@@ -73,7 +73,7 @@ export default function Login() {
               Forgot password?
             </Link>
           </div>
-          <p className="mt-8 text-center text-sm text-gray-500">
+          <p className="mt-8 mx-auto text-center text-sm text-gray-500">
             Sign in with your social media{' '} <br />
           </p>
           <div className='social-media'>
