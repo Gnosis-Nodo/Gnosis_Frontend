@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 135px;
+}
+.actions  {
+    font-weight: bold;
+    font-size: 18px;
+}
+.account-heading {
+    display: flex;
+    justify-content: flex-start;
+    margin: 32px 0 32px 48px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account-topics {
+    font-size: 16px;
+    font-weight: bold;
+}
+main {
+    display: grid;
+    justify-content: center;
+    .profile-container {
+        border: 1px solid #d9d9d9;
+        border-radius: 35px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+.description {
+    width: 50%;
+    text-align: center;
+}
+.button-actions {
+    width: 25%;
+    color: #ffffff;
+    background-color: #760404;
+    border-radius: 6px;
+}
+.photo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 35px;
+    padding: 20px;
+    margin-bottom: 20px;
+    #upload {
+        width: 25%;
+        height: 35px;
+        background-image: url("../../../assets/svg/upload-logo-svg.svg");
+        background-repeat: no-repeat;
+        background-size: 22px;
+        margin-left: 6px;
+        background-position: right;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #000A61;
+        }
+}
+.email-container{
+    border: 1px solid #d9d9d9;
+    border-radius: 35px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
