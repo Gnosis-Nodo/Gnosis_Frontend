@@ -1,6 +1,7 @@
 import './Account.scss';
 import Avatar from '../../../assets/svg/avatar-bad-breaking-svg.svg';
 import AccountHeader from '../../../components/partials/accountHeader/AccountHeader';
+import UserDB from '../userDB/UserDB';
 
 export default function Account() {
 return (
@@ -20,7 +21,7 @@ return (
                         </div>
                         <div>
                             <input
-                            placeholder='Name'
+                            placeholder={UserDB[0].name}
                             id="name"
                             name="name"
                             type="text"
@@ -38,7 +39,7 @@ return (
                             </div>
                             <div>
                                 <input
-                                placeholder='last-name'
+                                placeholder={UserDB[0].lastName}
                                 id="last-name"
                                 name="last-name"
                                 type="text"
@@ -55,11 +56,11 @@ return (
                             </label>
                         </div>
                         <div>
-                            <input
-                            placeholder='Tell us about you'
+                            <textarea
+                            placeholder={UserDB[0].bio}
                             id="bio"
                             name="bio"
-                            type="text"
+                            /* type="text" */
                             autoComplete="bio"
                             required
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 placeholder: px-3 outline-none"
@@ -84,7 +85,7 @@ return (
                                 </label>
                                 <div className="mt-0.5">
                                     <input
-                                    placeholder='email@adress.com'
+                                    placeholder={UserDB[0].email}
                                     id="email"
                                     name="email"
                                     type="email"

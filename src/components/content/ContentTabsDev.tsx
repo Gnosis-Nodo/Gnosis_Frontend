@@ -45,7 +45,21 @@ const tabsInfoJS = [
     graphs: {
       g1: WebProject, 
     }
+  },  
+  {
+    id: 4,
+    title: "Web Server",
+    content: {
+      p1: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.',
+      p2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis nemo corporis facilis magni dolorum exercitationem ullam laborum possimus, cupiditate vero quisquam, ducimus a. Consequatur dolore officia consequuntur impedit iusto!',
+      p3: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem alias aliquam? Assumenda dignissimos officiis error nam dolor ipsa placeat obcaecati, aut non labore quo quae ut? Asperiores, consectetur numquam.',
+      p4: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, saepe impedit quia itaque delectus, fuga tenetur maiores, et rerum nulla laudantium dolore similique! Perspiciatis fugiat voluptatum reprehenderit quaerat maxime praesentium?',
+    },
+    graphs: {
+      g1: HowToJs, 
+    }
   },
+
 ];
 
 const TabsDev = () => {

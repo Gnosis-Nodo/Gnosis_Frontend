@@ -8,7 +8,7 @@ const Constributors = () => {
       };
     return(
         <div>
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[67px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[67px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -22,7 +22,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -36,7 +36,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -50,7 +50,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -64,7 +64,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -78,7 +78,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -92,7 +92,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -106,7 +106,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -120,7 +120,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
@@ -134,7 +134,7 @@ const Constributors = () => {
             </div>
         </div>
 
-        <div className='flex w-[1130px] h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
+        <div className='flex w-[1130px] my-8 h-[75px] bg-[#D9D9D980] rounded-[27px] gap-[2px] bg-opacity-50 shadow-md flex-shrink-0 mt-[7px] justify-between'>
             <div className='m-[8px] ml-[20px] mr-[20px]'>
                 <img className='w-[62px] h-[59px] flex-shrink-0 rounded-[100px] border border-solid ' src={Rectangle} alt="" />
             </div>
