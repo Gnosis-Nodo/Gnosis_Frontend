@@ -150,11 +150,11 @@ const Constributors = () => {
 
         <div className='flex justify-center gap-[10px] m-[4px] mt-[25px]'>
             <h3 className='text-[gray]'>Anterior</h3>
-            <p className='text-[black] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px]'>1</p>
-            <p className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>2</p>
-            <p className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>3</p>
-            <p className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>4</p>
-            <p className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>5</p>
+            <button className='text-[black] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px]'>1</button>
+            <button className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>2</button>
+            <button className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>3</button>
+            <button className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>4</button>
+            <button className='text-[gray] bg-[#D9D9D980] shadow-md px-[7px] rounded-[4px] text-[17px'>5</button>
             <p className='text-[gray]'>(de 30)</p>
             <p className='text-[gray]'>-</p>
             <h3 className='text-[gray]'>siguiente</h3>
