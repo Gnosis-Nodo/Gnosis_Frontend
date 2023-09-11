@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-main {
-    margin: 0 100px 0 100px;
+.mainAccount {
+    margin: 0 300px;
     .profile-container {
         border: 1px solid #d9d9d9;
         border-radius: 35px;
@@ -20,7 +20,7 @@ main {
 .account-heading {
     display: flex;
     justify-content: flex-start;
-    margin: 32px 0 32px 48px;
+    margin: 32px 0 32px 98px;
     font-weight: bold;
     font-size: 18px;
 }
@@ -36,6 +36,7 @@ main {
     padding: 0 40px 0 40px;
 }
 .button-actions {
+    margin: auto;
     display: flex;
     width: 25%;
     color: #ffffff;

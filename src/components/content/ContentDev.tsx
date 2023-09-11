@@ -1,6 +1,7 @@
 import DuckPic from '../../assets/imgs/Duck.jpeg';
 import { UserGroupIcon, UsersIcon } from '@heroicons/react/20/solid';
 import ContentTabsDev from './ContentTabsDev';
+import { Link } from 'react-router-dom';
 
 const topics = [
   {
@@ -32,6 +33,9 @@ export default function ContentDev() {
         </div>
       </div>
       <ContentTabsDev />
+      <div className="playground__link__container w-2/5 m-auto text-center h-2/5 mt-5">
+        <Link to="/playground" className='text-xl font-bold bg-[rgb(247,221,58)] shadow-lg p-5'>VAMOS A PRACTICAR</Link>  
+      </div>
     </>
   )
 
