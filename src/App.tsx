@@ -15,6 +15,8 @@ import Partnership from './components/partnership/Partnership';
 import Register from './components/user/register/Register';
 import Section from './components/section/Section';
 import Account from './components/user/account/Account';
+import Playground from './components/playground/Playground';
+import SuccessLogin from './components/user/login/SuccessLogin';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path='/register' element={ <Register /> } />
         <Route path='/section' element={ <Section /> } />
         <Route path='/account' element={ <Account /> } />
+        <Route path='/playground' element={ <Playground /> } />
+        <Route path='/welcome' element={ <SuccessLogin /> } />
       </Routes>
       <Footer/>
     </>

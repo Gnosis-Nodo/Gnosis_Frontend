@@ -116,7 +116,7 @@ const TabsDev = () => {
 export default function ContentTabsDev() {
   return (
     <>
-      <TabsDev />;
+      <TabsDev />
     </>
   );
 }

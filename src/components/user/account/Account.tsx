@@ -7,7 +7,7 @@ return (
     <>
         <AccountHeader></AccountHeader>
         <h2 className='account-heading'>Setting account</h2>
-        <main>
+        <main className='mainAccount'>
             <section className='personal-info'>
                 <h3 className='account-topics'>Profile</h3>
                 <div className='profile-container'>
