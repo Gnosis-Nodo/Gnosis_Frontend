@@ -44,7 +44,7 @@ const Statics = () => {
                     <h2 className='text-[#000A61] text-[25px]'>Participación foro</h2>
                     </div>
                 </div>
-                <div className=' w-[1200px] h-[464px] flex-shrink-0  rounded-[71px] ml-[30px] bg-gray-300 bg-opacity-50'>
+                <div className=' w-[1200px] h-[464px] flex-shrink-0  rounded-[71px] ml-[30px] bg-gray-300 bg-opacity-50 mt-[20px]'>
                     <div className='flex items-center gap-[10px] ml-[40px] '>
                         <img className='w-[80px] h-[80px] flex-shrink-0' src={LogoScript} alt="?" />
                         <h3 className='text-main-font text-[30px]'>JavaScript</h3>
