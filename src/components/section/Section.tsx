@@ -12,7 +12,8 @@ import './Section.scss';
 export default function Section() {
   return (
     <>
-      <header className='products'>
+      <main>
+      <div className='products'>
         <div className='products-info'>
           <div className='coding'>
             <img src={ Coding } alt="coding-logo" />
@@ -32,7 +33,7 @@ export default function Section() {
           </div>
         </div>
         <p className='text'>Discover 4 different ways to learn, easy and, fun. We have more than courses and concepts to study </p>
-      </header>
+      </div>
       <nav className='searching-section'>
         <div className='searching-navbar'>
           <input placeholder='Search...'
@@ -51,7 +52,6 @@ export default function Section() {
           <option value="4">Video</option>  
         </select>
       </nav>
-      <main>
         <div className='card-display'>
           <div className='card-container'>
             <div className='card-heading'>

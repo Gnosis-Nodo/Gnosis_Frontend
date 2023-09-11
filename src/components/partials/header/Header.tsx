@@ -9,6 +9,7 @@ import {
   FingerPrintIcon,
   SquaresPlusIcon,
   XMarkIcon,
+  BookOpenIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, UserCircleIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
@@ -19,6 +20,7 @@ import { Link } from 'react-router-dom';
 
 
 const products = [
+  { name: 'Sections', description: 'Check all we have to offer', href: '/section', icon: BookOpenIcon },
   { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content/audio', icon: ChartPieIcon },
   { name: 'Development', description: 'Code your future', href: '/content/dev', icon: PlayCircleIcon },
   { name: 'Reading', description: 'Your customers’ data will be safe and secure', href: '/paywall', icon: FingerPrintIcon },
@@ -105,7 +107,7 @@ export default function Header() {
           <a href="https://nodoeafit.com/" target="_blank" className="text-lg font-semibold leading-6 text-gray-900">
             Nodo
           </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="/contribute" className="text-lg font-semibold leading-6 text-gray-900">
             Contribute
           </a>
         </Popover.Group>

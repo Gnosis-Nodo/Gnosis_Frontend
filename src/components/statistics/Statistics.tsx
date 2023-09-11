@@ -10,7 +10,7 @@ const Statics = () => {
         
                 <div className='flex justify-center gap-[50px]'>
                 <div className='w-[554px] h-[554px]'>
-                <h1 className='text-[38px] text-[#000A61]'>¡Hola! María Alejandra Rodríguez</h1>
+                <h1 className='text-[38px] text-[#000A61]'>¡Hola! Claudia Restrepo</h1>
                 <img className='w-[100%] h-[100%]' src={Diagrama} alt="" />
                 </div>
 

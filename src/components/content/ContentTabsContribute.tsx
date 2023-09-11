@@ -1,53 +1,30 @@
 import React from "react";
-//Imgs imports
-import WebProject from "../../assets/imgs/graph_web_project.png";
-import Audio1 from "../../assets/imgs/Audio1.png";
-import Audio2 from "../../assets/imgs/Audio2.png";
 
 import Recommendations from "./recommendations/Recommendations";
 
 const tabsInfoAudio = [
   {
     id: 1,
-    title: "Conference",
+    title: "Get Started",
     content: {
       p1: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.',
       p2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis nemo corporis facilis magni dolorum exercitationem ullam laborum possimus, cupiditate vero quisquam, ducimus a. Consequatur dolore officia consequuntur impedit iusto!',
       p3: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem alias aliquam? Assumenda dignissimos officiis error nam dolor ipsa placeat obcaecati, aut non labore quo quae ut? Asperiores, consectetur numquam.',
       p4: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, saepe impedit quia itaque delectus, fuga tenetur maiores, et rerum nulla laudantium dolore similique! Perspiciatis fugiat voluptatum reprehenderit quaerat maxime praesentium?',
     },
-    graphs: {
-      g1: Audio1,  
-    }
   },
   {
     id: 2,
-    title: "Podcast",
+    title: "Contribute",
     content: {
       p1: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.',
       p2: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis nemo corporis facilis magni dolorum exercitationem ullam laborum possimus, cupiditate vero quisquam, ducimus a. Consequatur dolore officia consequuntur impedit iusto!',
       p3: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem alias aliquam? Assumenda dignissimos officiis error nam dolor ipsa placeat obcaecati, aut non labore quo quae ut? Asperiores, consectetur numquam.',
       p4: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, saepe impedit quia itaque delectus, fuga tenetur maiores, et rerum nulla laudantium dolore similique! Perspiciatis fugiat voluptatum reprehenderit quaerat maxime praesentium?',
     },
-    graphs: {
-      g1: Audio2, 
-    }
-  },
-  {
-    id: 3,
-    title: "Audio Projects",
-    content: {
-      p1: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.',
-      p2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nobis nemo corporis facilis magni dolorum exercitationem ullam laborum possimus, cupiditate vero quisquam, ducimus a. Consequatur dolore officia consequuntur impedit iusto!',
-      p3: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem alias aliquam? Assumenda dignissimos officiis error nam dolor ipsa placeat obcaecati, aut non labore quo quae ut? Asperiores, consectetur numquam.',
-      p4: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque. \n Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, natus. Dolor quaerat eaque ipsum officiis est magnam, sed laborum nam voluptatibus! Repellendus commodi enim quia aspernatur, perferendis veritatis soluta atque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, saepe impedit quia itaque delectus, fuga tenetur maiores, et rerum nulla laudantium dolore similique! Perspiciatis fugiat voluptatum reprehenderit quaerat maxime praesentium?',
-    },
-    graphs: {
-      g1: WebProject, 
-    }
   },
 ];
-const TabsAudio = () => {
+const TabsContribute = () => {
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
@@ -80,42 +57,16 @@ const TabsAudio = () => {
               ))}
             </ul>
           </div>
-
-          <div className="relative flex min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto w-4/5 text-center">
-              <div className="tab-content tab-space">
-                {tabsInfoAudio.map((tab) => (
-                  <div className={`${openTab === tab.id ? "block" : "hidden"} p-2`} id={`link${1}`}>
-                    <h1 className="font-bold text-2xl text-left pl-14">{ tab.title }</h1>
-                    <p className="py-5">
-                      {tab.content.p1}
-                    </p>
-                    <img className="py-5 m-auto" src={tab.graphs.g1} alt={`Graphic 1 of the topic ${tab.title}`} />
-                    <p className="py-5">
-                      {tab.content.p2}
-                    </p>
-                    <p className="py-5">
-                      {tab.content.p3}
-                    </p>
-                    <p className="py-5">
-                      {tab.content.p4}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <Recommendations />
-          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default function ContentTabsAudio() {
+export default function ContentTabsContribute() {
   return (
     <>
-      <TabsAudio />
+      <TabsContribute />
     </>
   );
 }

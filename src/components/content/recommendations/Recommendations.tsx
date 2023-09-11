@@ -1,3 +1,5 @@
+import './Recommendations.scss';
+
 export default function Recommendations() {
   return (
     <>

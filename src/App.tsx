@@ -31,7 +31,7 @@ function App() {
       <Routes>
         <Route path='/' element={ <Landing /> } />
         <Route path='/login' element={ <Login /> } />
-        <Route path='/contribuite' element={<Contribuite/>}/>
+        <Route path='/contribute' element={<Contribuite/>}/>
         <Route path='/stats' element={<Statics/>}/>
         <Route path='/content/dev' element={ <ContentDev /> } />
         <Route path='/content/audio' element={ <ContentAudio /> } />
