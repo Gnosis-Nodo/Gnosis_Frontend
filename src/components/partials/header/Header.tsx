@@ -9,8 +9,9 @@ import {
   FingerPrintIcon,
   SquaresPlusIcon,
   XMarkIcon,
+  BookOpenIcon
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, UserCircleIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 //Own Imports
 import LogoGnosis from '../../../assets/imgs/Logo_Gnosis_4.svg';
@@ -19,10 +20,13 @@ import { Link } from 'react-router-dom';
 
 
 const products = [
-  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content', icon: ChartPieIcon },
-  { name: 'Video', description: 'Speak directly to your customers', href: '/content', icon: PlayCircleIcon },
-  { name: 'Lectura', description: 'Your customers’ data will be safe and secure', href: '/content', icon: FingerPrintIcon },
+  { name: 'Sections', description: 'Check all we have to offer', href: '/section', icon: BookOpenIcon },
+  { name: 'Audio', description: 'Get a better understanding of your traffic', href: '/content/audio', icon: ChartPieIcon },
+  { name: 'Development', description: 'Code your future', href: '/content/dev', icon: PlayCircleIcon },
+  { name: 'Reading', description: 'Your customers’ data will be safe and secure', href: '/paywall', icon: FingerPrintIcon },
 ]
+
+const token = localStorage.getItem("token");
 
 
 function classNames(...classes:any) {
@@ -100,16 +104,16 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="https://nodoeafit.com/" target="_blank" className="text-lg font-semibold leading-6 text-gray-900">
             Nodo
           </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="/contribute" className="text-lg font-semibold leading-6 text-gray-900">
             Contribute
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/login" className="text-lg font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <Link to="/login" className="flex text-lg font-semibold leading-6 text-gray-900">
+            <UserCircleIcon className='h-10 h-10'/> <span className='mt-2' aria-hidden="true">&rarr;</span>
           </Link>
         </div>
       </nav>
@@ -163,7 +167,8 @@ export default function Header() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="https://nodoeafit.com/"
+                  target="_blank"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Nodo

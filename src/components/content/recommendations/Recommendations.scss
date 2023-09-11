@@ -1,0 +1,10 @@
+.recommendations_container {
+  width: 25%;
+}
+
+@media (max-width: 520px) {
+  .recommendations {
+    display: none;
+  }
+  
+}

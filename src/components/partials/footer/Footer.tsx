@@ -30,10 +30,10 @@ export default function Footer() {
                   <a href="/pricing">Overview</a>
                 </li>
                 <li>
-                  <a href="/">Premium Plans</a>
+                  <a href="/pricing">Premium Plans</a>
                 </li>
                 <li>
-                  <a href="/">Promotions</a>
+                  <a href="/pricing">Promotions</a>
                 </li>
               </nav>
             </div>
@@ -44,10 +44,10 @@ export default function Footer() {
                   <a href="/about">About Us</a>
                 </li>
                 <li>
-                  <a href="/">Partnerships</a>
+                  <a href="/partnership">Partnerships</a>
                 </li>
                 <li>
-                  <a href="/">Careers</a>
+                  <a href="/about">Careers</a>
                 </li>
               </nav>
             </div>
